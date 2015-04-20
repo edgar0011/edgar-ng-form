@@ -1,0 +1,53 @@
+
+.ed-popup {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  margin: 16px;
+  border: 1px solid @panel-primary-border;
+  background-color: @white-dirty;
+  z-index: @zindex-ed-popup;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.ed-popup-large {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+  margin: 16px;
+  border: 1px solid @panel-primary-border;
+  background-color: @white-dirty;
+  z-index: @zindex-ed-popup;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.ed-popup-full {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  border: 1px solid @panel-primary-border;
+  background-color: @white-dirty;
+  z-index: @zindex-ed-popup;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.ed-popup :focus, .ed-popup-full :focus {
+  outline: none;
+}
+
+.fixedScroll {
+}
+
+.noscroll {
+  overflow-y:hidden;
+  margin-right: 10px;
+}

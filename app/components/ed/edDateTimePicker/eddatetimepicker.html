@@ -1,0 +1,70 @@
+<div class="col-lg-4" dropdown>
+    <a dropdown-toggle id="dropdown" role="button" data-toggle="dropdown" >
+        <div class="input-group">
+            <input type="text" class="form-control"
+                data-ng-model="date" datepicker-popup="{{format}}" readonly>
+
+            <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+        </div>
+    </a>
+    <ul class="dropdown-menu">
+        <datetimepicker data-ng-model="date" data-datetimepicker-config="{ dropdownSelector: '#dropdown', startView:'month', minView: 'day' }"/>
+    </ul>
+</div>
+
+<div class="col-lg-4" dropdown>
+    <a dropdown-toggle id="dropdown2" role="button" data-toggle="dropdown" >
+        <div class="input-group">
+            <!--<label for="termFromInput">{{'csTime.FORM.EVENT_TERM_FROM' | translate}}</label>-->
+            <input id="termFromInput" type="text" class="form-control min-padding-left"
+                   data-ng-model="dateFrom" datepicker-popup="{{'HH:mm'}}" readonly>
+
+            <span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-time"></i></span>
+        </div>
+    </a>
+    <ul class="dropdown-menu">
+        <datetimepicker data-ng-model="dateFrom" data-datetimepicker-config="{ dropdownSelector: '#dropdown2', startView:'hour'  }" />
+    </ul>
+</div>
+
+<div class="col-lg-4" dropdown>
+    <a dropdown-toggle id="dropdown3" role="button" data-toggle="dropdown" >
+        <div class="input-group">
+            <!--<label for="termToInput">{{'csTime.FORM.EVENT_TERM_TO' | translate}}</label>-->
+            <input id="termToInput" type="text" class="form-control min-padding-left"
+                   data-ng-model="dateTo" datepicker-popup="{{'HH:mm'}}" readonly>
+
+            <span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-time"></i></span>
+        </div>
+    </a>
+    <ul class="dropdown-menu">
+        <datetimepicker data-ng-model="dateTo" data-datetimepicker-config="{ dropdownSelector: '#dropdown3', startView:'hour' }" />
+    </ul>
+</div>
+
+<!--{{date}}
+{{dateFrom}}
+{{dateTo}}-->
+
+<!--<div class="input-group">
+    <div class="ed-datepicker input-group pull-left">
+        <input id="eventTermInput" class="form-control" datepicker-popup="{{format}}"
+               ng-model="date" is-open="opened" min-date="minDate"
+               datepicker-options="dateOptions"
+
+
+               date-disabled="disabled(date, mode)" ng-required="true" close-text="{{'core.CLOSE' | translate}}" readonly />
+        <div class="input-group-addon"  ng-click="open($event)">
+            <i class="glyphicon glyphicon-calendar"></i>
+        </div>
+    </div>
+    <div class="input-group clearfix pull-right">
+        <timepicker ng-model="time" minute-step="15" show-meridian="false"></timepicker>
+    </div>
+</div>-->
+
+
+
+
+<!--
+<datetimepicker data-ng-model="date"></datetimepicker>-->

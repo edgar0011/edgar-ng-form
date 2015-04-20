@@ -1,0 +1,103 @@
+{
+    "core.ERROR_MESSAGE": "Oops, something went wrong.",
+    "core.ROUTE_ERROR_MESSAGE": "Could not load data.",
+    "core.ERROR_NOT_FOUND": "Data or path not found.",
+    "core.CONFIG_ERROR_NOT_FOUND": "Configuration data or path not found.",
+    "core.SCROLL_TOP": " UP",
+
+    "core.BUTTON_LANG_CS":"Czech",
+    "core.BUTTON_LANG_EN":"English",
+
+    "core.BACK":"Back",
+    "core.PROCEED":"Proceed",
+    "core.CLOSE":"Close",
+    "core.SAVE":"Save",
+
+    "core.CLOSE_CONFIRMATION": "Really wish to close?",
+
+    "core.DETAIL" : "Detail",
+
+    "core.LOGIN":"Sign IN",
+    "core.LOGOUT":"Sign OUT",
+
+    "core.OK": "OK",
+    "core.CANCEL": "Cancel",
+    "core.EDIT": "Upravit",
+
+    "csTime.WELCOME_TITLE": "Welcome to the 'leisureTime'",
+    "csTime.WELCOME_TEXT": "you can share and participate in various leisure activities",
+    "csTime.GOOGLE_AUTHORIZE":"Sign IN via GOOGLE",
+
+    "csTime.MAIN_LABEL": "Providers",
+    "csTime.EVENTS_LABEL": "Activities offer",
+    "csTime.NEW_EVENT_LABEL": "Add activity",
+    "csTime.CALENDAR_LABEL": "My activities",
+
+    "csTime.EVENTS_LABEL_TEXT": "Make a choice. Decide. And participate!",
+    "csTime.CALENDAR_LABEL_TEXT": "Your personal calendar of activities. (This is where you can check if your working rush is preventing you from taking the time for yourself)",
+    "csTime.NEW_EVENT_LABEL_TEXT": "Want to create an activity? Have a good tip for an activity? Your are not alone!, Insert it below, and se how many enthusiasts will participate. It does make sense.",
+    "csTime.EVENT_PERFORMERS_LABEL_TEXT": "",
+
+
+  "csTime.EVENT_PERFORMERS_LABEL" : "Providers",
+
+    "csTime.ENLIST_EVENT" : "Enlist",
+    "csTime.DE_ENLIST_EVENT": "Dismiss",
+    "csTime.LIKE_EVENT" : "I like that",
+
+
+    "csTime.SORT_NAME": "by name",
+    "csTime.SORT_EMAIL": "by email",
+    "csTime.SORT_TITLE": "by title",
+    "csTime.SORT_CATEGORY": "by category",
+    "csTime.SORT_TERM":"by time",
+    "csTime.ALL_CATEGORY": "- all -",
+    "csTime.SELECT_CATEGORY": "Select category",
+    "csTime.SEARCH": "Search",
+
+    "csTime.SORT_ASC": "ascending",
+    "csTime.SORT_DESC": "descending",
+
+    "csTime.event.CREATED": "created",
+    "csTime.event.PROVIDER": "provider",
+    "csTime.event.AUTHOR": "author",
+
+    "csTime.FORM.EVENT_TITLE": "Event title",
+    "csTime.FORM.EVENT_TERMS": "Event term",
+
+    "csTime.ADD_TERM": "Add term",
+
+    "csTime.FORM.EVENT_TYPE_ONE_TERM": "one time",
+    "csTime.FORM.EVENT_TYPE_MULTI_TERM": "mutliple times",
+    "csTime.FORM.EVENT_TYPE_REPEATED_TERM": "repeated",
+
+    "csTime.FORM.EVENT_TERM_FROM": "from",
+    "csTime.FORM.EVENT_TERM_TO": "to",
+
+    "csTime.FORM.EVENT_CATEGORY": "Category",
+    "csTime.FORM.EVENT_LOCATION": "Place",
+
+    "csTime.FORM.EVENT_ADMISSION": "Reward",
+    "csTime.FORM.EVENT_PROVIDER": "Provider",
+    "csTime.FORM.EVENT_PROVIDER_NAME": "Name",
+    "csTime.FORM.EVENT_PROVIDER_EMAIL": "Email",
+    "csTime.FORM.EVENT_PROVIDER_PHONE": "Phone",
+    "csTime.FORM.EVENT_PROVIDER_CSUSER": "Me",
+    "csTime.FORM.EVENT_MAX_ATTENDEE": "Maximal number of attendees",
+    "csTime.FORM.EVENT_MIN_ATTENDEE": "Minimal number of attendees",
+
+    "csTime.FORM.SELECT_FIRST_TERM_FROM_REPETITION": "Select the first term, since which the event is repeated same time and day of the week.",
+
+    "csTime.FORM.ERROR_SHORT": "text is to short",
+    "csTime.FORM.ERROR_SHORT_HINT": "minimal length is 3 characters",
+    "csTime.FORM.ERROR_MIN": "value is too low",
+    "csTime.FORM.ERROR_MAX": "value is too high",
+
+    "csTime.FORM.TERM_ALREADY_EXIST": "Selected term already exists.",
+
+    "csTime.FORM.ERROR_FORMAT": "incorrect format",
+    "csTime.FORM.SAVE_SUCCESS": "Event saved successfully",
+    "csTime.FORM.SAVE_ERROR": "Event save error"
+
+
+}

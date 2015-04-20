@@ -1,0 +1,37 @@
+
+<div class="row  ed-term-selector" style="height: 0;">
+    <div class="col-lg-10">
+
+        <ed-date-time-picker id="eventTermInput" date-from="newTerm.dateFrom" date-to="newTerm.dateTo"
+                             format="{{format}}" min-date="minDate"
+                             ng-if="addingNewTerm"
+                ></ed-date-time-picker>
+
+    </div>
+        <!--<button ng-if="!addingNewTerm"
+                class="btn btn-primary btn-small animated-item" ng-click="addTermAction()">{{ 'csTime.ADD_TERM' | translate }}</button>
+
+        <button ng-if="addingNewTerm"
+                class="btn btn-primary btn-small animated-item" ng-click="confirmAddTermAction()">{{ 'core.OK' | translate }}</button>-->
+
+
+    <div class="col-lg-10" ng-if="!addingNewTerm">
+        <ul class="list-group" style="overflow-y: auto; max-height: 110px;">
+            <li class="list-group-item animated-item clearfix" ng-repeat="term in terms">
+                {{term | term:'short'}}
+                <span class="nav pull-right" ng-click="removeTerm(term)"><a href="" ><i class="glyphicon glyphicon-remove"></i></a> </span>
+
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="col-lg-2">
+        <button ng-if="!addingNewTerm" class="btn btn-primary pull-right" ng-click="addTermAction()">
+           <i class="glyphicon glyphicon-plus-sign" ></i></button>
+
+        <button ng-if="addingNewTerm" class="btn btn-primary pull-right" ng-click="confirmAddTermAction()">
+            <i class="glyphicon glyphicon-ok-sign" ></i></button>
+    </div>
+
+</div>

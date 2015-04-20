@@ -1,0 +1,110 @@
+{
+    "core.ERROR_MESSAGE": "V aplikaci nastala chyba.",
+    "core.ROUTE_ERROR_MESSAGE": "Nepodařilo se načíst data.",
+    "core.ERROR_NOT_FOUND": "Data nebo cesta k nim nenalezena",
+    "core.CONFIG_ERROR_NOT_FOUND": "Konfigurační data nebo cesta k nim nenalezena",
+    "core.SCROLL_TOP": "Nahoru",
+
+    "core.BUTTON_LANG_CS":"Česky",
+    "core.BUTTON_LANG_EN":"Anglicky",
+
+    "core.LOGIN":"Přihlásit",
+    "core.LOGOUT":"Odhlásit",
+
+    "core.BACK":"Zpět",
+    "core.PROCEED":"Pokračovat",
+    "core.CLOSE":"Zavřít",
+    "core.SAVE":"Uložit",
+
+    "core.CLOSE_CONFIRMATION": "Opravdu si přejete zavřít?",
+
+    "core.DETAIL" : "Podrobnosti",
+
+    "core.OK": "OK",
+    "core.CANCEL": "Zrušit",
+    "core.EDIT": "Upravit",
+
+
+    "csTime.WELCOME_TITLE": "Vítejte v aplikaci 'Spořka sobě'",
+    "csTime.WELCOME_TEXT": "můžete zde sdílet a zúčastňovat se zájmovych akcí, celé to spáchala madame Velíková",
+    "csTime.GOOGLE_AUTHORIZE":"Přihlásit se pomocí GOOGLE",
+
+    "csTime.MAIN_LABEL": "Poskytovatelé",
+    "csTime.EVENTS_LABEL": "Nabídka aktivit",
+    "csTime.NEW_EVENT_LABEL": "Vložit aktivitu",
+    "csTime.CALENDAR_LABEL": "Moje aktivity",
+
+
+    "csTime.EVENTS_LABEL_TEXT": "Vyberte si. Rozhodněte se. A zapojte se!",
+    "csTime.CALENDAR_LABEL_TEXT": "Váš osobní kalendář aktivit. (Zde můžete mimo jiné sledovat, jestli v pracovním shonu nezapomínáte sami na sebe.)",
+    "csTime.NEW_EVENT_LABEL_TEXT": "Chcete vytvořit událost? Máte tip na novou aktivitu? Nejste v tom sami! Vložte  ji níže a uvidíte, kolik nadšenců se k Vám hned přidá. Má to smysl!",
+    "csTime.EVENT_PERFORMERS_LABEL_TEXT": "",
+
+
+    "csTime.EVENT_PERFORMERS_LABEL" : "Poskytovatelé",
+
+    "csTime.ENLIST_EVENT" : "Přihlásit se",
+    "csTime.DE_ENLIST_EVENT": "Odhlásit se",
+    "csTime.LIKE_EVENT" : "To se mi líbí",
+
+
+
+
+    "csTime.SORT_NAME": "podle jména",
+    "csTime.SORT_EMAIL": "podle emailu",
+    "csTime.SORT_TITLE": "podle názvu",
+    "csTime.SORT_CATEGORY": "podle kategorie",
+    "csTime.SORT_TERM":"podle času",
+    "csTime.ALL_CATEGORY": "- všechny -",
+    "csTime.SELECT_CATEGORY": "Vyberte kategorii",
+    "csTime.SEARCH": "Vyhledat",
+
+    "csTime.SORT_ASC": "vzestupně",
+    "csTime.SORT_DESC": "sestupně",
+
+    "csTime.event.CREATED": "vytvořeno",
+    "csTime.event.PROVIDER": "poskytovatel",
+    "csTime.event.AUTHOR": "autor",
+
+
+    "csTime.FORM.EVENT_TITLE": "Název události",
+    "csTime.FORM.EVENT_TERMS": "Termíny události",
+
+    "csTime.ADD_TERM": "Přidat termín",
+
+    "csTime.FORM.EVENT_TYPE_ONE_TERM": "jednorázová",
+    "csTime.FORM.EVENT_TYPE_MULTI_TERM": "vícerázová",
+    "csTime.FORM.EVENT_TYPE_REPEATED_TERM": "opakovaná",
+
+    "csTime.FORM.EVENT_TERM_FROM": "od",
+    "csTime.FORM.EVENT_TERM_TO": "do",
+
+    "csTime.FORM.EVENT_CATEGORY": "Kategorie",
+    "csTime.FORM.EVENT_LOCATION": "Místo",
+
+    "csTime.FORM.EVENT_ADMISSION": "Odměna",
+    "csTime.FORM.EVENT_PROVIDER": "Poskytovatel",
+    "csTime.FORM.EVENT_PROVIDER_NAME": "Jméno",
+    "csTime.FORM.EVENT_PROVIDER_EMAIL": "Email",
+    "csTime.FORM.EVENT_PROVIDER_PHONE": "Telefon",
+    "csTime.FORM.EVENT_PROVIDER_CSUSER": "Já",
+    "csTime.FORM.EVENT_MAX_ATTENDEE": "Max počet účastníků",
+    "csTime.FORM.EVENT_MIN_ATTENDEE": "Min počet účastníků",
+
+    "csTime.FORM.SELECT_FIRST_TERM_FROM_REPETITION": "Zvolte první termín, od kterého se událost bude opakovat ve stejný čas a stejný den v týdnu.",
+
+    "csTime.FORM.ERROR_SHORT": "text je příliš krátký",
+    "csTime.FORM.ERROR_SHORT_HINT": "minimum jsou 3 znaky",
+    "csTime.FORM.ERROR_MIN": "hodonota je příliš nízká",
+    "csTime.FORM.ERROR_MAX": "hodonota je příliš vysoká",
+
+    "csTime.FORM.TERM_ALREADY_EXIST": "Zvolený termín již existuje",
+
+
+    "csTime.FORM.ERROR_FORMAT": "nesprávný formát",
+    "csTime.FORM.SAVE_SUCCESS": "Událost přidána",
+    "csTime.FORM.SAVE_ERROR": "Událost se nepodařilo uložit"
+
+
+
+}
