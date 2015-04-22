@@ -99,7 +99,7 @@ angular.module("ed.ui.directives")
 
             function commitValue() {
 
-                if (!scope.dateFrom || !scope.dateTo) {
+                if (!scope.date || !scope.dateFrom || !scope.dateTo) {
                     return;
                 }
 

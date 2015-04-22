@@ -36,7 +36,7 @@ angular.module("ed.ui", ["ed.ui.services", "ed.ui.directives", 'ed.navigation', 
 })
 
 .value('edCommonProperties', {
-    "selectedLanguage": 'ed',
+    'selectedLanguage': 'ed',
     "language": {
         "cs": {
             "months": [
@@ -231,7 +231,5 @@ angular.module("ed.ui", ["ed.ui.services", "ed.ui.directives", 'ed.navigation', 
 });
 
 angular.module("ed.ui.services", []);
-
-angular.module("ed.ui.directives", []);
 
 angular.module("ed.ui.directives", []);
